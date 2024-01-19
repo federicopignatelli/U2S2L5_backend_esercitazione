@@ -9,5 +9,4 @@ class U2S2L5BackendEsercitazioneApplicationTests {
 	@Test
 	void contextLoads() {
 	}
-
 }
