@@ -1,7 +1,6 @@
 package federicopignatelli.U2S2L5_backend_esercitazione.controllers;
 
 import federicopignatelli.U2S2L5_backend_esercitazione.entities.Device;
-import federicopignatelli.U2S2L5_backend_esercitazione.entities.User;
 import federicopignatelli.U2S2L5_backend_esercitazione.exception.BadRequestException;
 import federicopignatelli.U2S2L5_backend_esercitazione.payloads.device.NewDeviceDTO;
 import federicopignatelli.U2S2L5_backend_esercitazione.payloads.device.NewDeviceResponseDTO;
