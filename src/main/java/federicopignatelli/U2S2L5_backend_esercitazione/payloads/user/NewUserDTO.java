@@ -1,12 +1,12 @@
 package federicopignatelli.U2S2L5_backend_esercitazione.payloads.user;
 import jakarta.validation.constraints.*;
 public record NewUserDTO(
-        @NotEmpty(message = "Il nome è obbligatorio")
-        @Size(min = 3, max = 30, message = "Nome deve avere minimo 3 caratteri, massimo 30")
+        @NotEmpty(message = "nome obbligatorio")
+        @Size(min = 5, max = 20, message = "Il nome dev'essere di almeno 5 caratteri con un massimo di 20")
         String name,
-        @NotEmpty(message = "Il cognome è obbligatorio")
+        @NotEmpty(message = "cognome obbligatorio")
         String surname,
-        @NotEmpty(message = "L'email è obbligatoria")
+        @NotEmpty(message = "email obbligatoria")
         @Email
         String email,
         @NotNull(message = "username obbligatorio")
