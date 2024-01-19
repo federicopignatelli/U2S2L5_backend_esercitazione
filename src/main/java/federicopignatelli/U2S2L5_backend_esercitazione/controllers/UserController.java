@@ -54,7 +54,7 @@ public class UserController {
     //delete
     @DeleteMapping("/{userId}")
     @ResponseStatus(HttpStatus.NO_CONTENT)
-    public void findAndDelete(@PathVariable UUID userId) {
+    public void findByIdAndDelete(@PathVariable UUID userId) {
         userService.findByIdAndDelete(userId);
     }
 }
